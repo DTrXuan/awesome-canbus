@@ -148,6 +148,7 @@ _SAE J1939 Standard_
 * [TruckDevil](https://github.com/LittleBlondeDevil/TruckDevil) - A tool and framework for interacting with and assessing ECUs that use J1939 for communications on the CANBUS.
 * [python-can-j1939](https://github.com/juergenH87/python-can-j1939) - Package provides SAE J1939 support for Python developers.
 * [Open-SAE-J1939](https://github.com/DanielMartensson/Open-SAE-J1939) - SAE J1939 protocol free to use for embedded systems or PC with CAN-bus.
+* [embr::j1939](https://github.com/malachi-iot/j1939) - Lean, portable J1939 library for embedded MCUs.
 
 ### J2534 Tools
 
@@ -188,7 +189,7 @@ _SAE J2534 Standard_
 * [CANAL-View](https://github.com/rusoku/CANAL-View) - Qt GUI for TouCAN USB to CAN bus converter.
 * [wxCAN-Sniffer](https://github.com/KruFFT/wxCAN-Sniffer) - CAN bus sniffer (PC side) with animation and chart.
 * [CANLogger](https://github.com/olegel/CANLogger) - CAN bus logger and analyzer tool.
-* [Seeeed-USB-CAN-Analyzer](https://github.com/SeeedDocument/USB-CAN-Analyzer/) - Closed source binary for noname Chinese USB-CAN adapter.
+* [Seeed-USB-CAN-Analyzer](https://github.com/SeeedDocument/USB-CAN-Analyzer/) - Closed source binary for noname Chinese USB-CAN adapter.
 * [CANtact-app](https://github.com/linklayer/cantact-app) - Desktop application for CANtact hardware interface.
 * [SavvyCAN](https://github.com/collin80/SavvyCAN) - Cross-platform Qt based GUI analysis tool. Supports SocketCAN compatible interfaces.
 * [openCanSuite](https://github.com/sebi2k1/openCanSuite) - Set of tools for analyzing, simulating and visualizing a CAN system.
@@ -239,7 +240,7 @@ _SAE J2534 Standard_
 
 ### Other Utils
 
-* [Seeeed-USB-CAN-Linux](https://github.com/alexmohr/usb-can) - CLI Linux Support for noname Chinese USB-CAN adapter.
+* [Seeed-USB-CAN-Linux](https://github.com/alexmohr/usb-can) - CLI Linux Support for noname Chinese USB-CAN adapter.
 * [opendlv-device-can-replay](https://github.com/chalmers-revere/opendlv-device-can-replay) - OpenDLV Microservice to replay captured CAN frames to a CAN interface.
 * [c0f](https://github.com/zombieCraig/c0f/) - CAN bus fingerprinting tool is designed to analyze CAN bus traffic and fingerprint the Maker and Model.
 * [canqv](https://github.com/kurt-vd/canqv) - Quick CAN frame inspection using CAN_RAW.
@@ -408,7 +409,6 @@ All kind of HW like CAN bus USB2CAN dongles, loggers, sniffers, adapters, etc.
 * [esp32s3-slcan](https://github.com/Pacerino/TWAI_SLCAN) - SLCAN implementation for ESP32-S3 (based on [esp32-slcan](https://github.com/mintynet/esp32-slcan)).
 <!--lint enable double-link-->
 * [ESP32-Arduino-CAN](https://github.com/miwagner/ESP32-Arduino-CAN) - Arduino CAN-Bus library for ESP32.
-* [ESP32RET](https://github.com/collin80/ESP32RET) - CAN Reverse engineering tool for ESP32 based boards (unmaintained).
 * [ESP32_CAN_Interface](https://github.com/PhilippFux/ESP32_CAN_Interface) - Wireless CAN-Interface for the ESP32 which uses the cannelloni protocol to send CAN-Frames via UDP over an Wi-Fi tunnel.
 * [esp32_canbus_gateway](https://github.com/vigoballak/esp32_canbus_gateway) - CAN module on esp32 + tja1050 coded on micropython.
 * [esp32-cantroller](https://github.com/neg2led/esp32-cantroller) - ESP32-S2-WROVER/WROOM based CANBUS controller thingy.
@@ -416,7 +416,14 @@ All kind of HW like CAN bus USB2CAN dongles, loggers, sniffers, adapters, etc.
 * 🔝[ESP32_CANViewer](https://github.com/Cellgalvano/ESP32_CANViewer) -  ESP32 based CAN interface for your webbrowser.
 * [esp-idf-can2http](https://github.com/nopnop2002/esp-idf-can2http) -  CANbus to http bridge using ESP32.
 * [esp32-obd2-emulator](https://github.com/limiter121/esp32-obd2-emulator) - Open-source OBD-II emulator based on an ESP32 + CAN transceiver IC, controllable via WiFi through a simple web UI (or via API).
+* [ESP32RET](https://github.com/collin80/ESP32RET) - CAN Reverse engineering tool for ESP32 based boards (unmaintained).
+* [ESP32S3RET](https://github.com/MagnusThome/ESP32S3RET) - CAN Reverse engineering tool for ESP32-S3 based boards.
+* [esp32_obd2](https://github.com/MagnusThome/esp32_obd2) - Simplified OBD2 layer to run on top of the esp32_can library that supports the newer ESP32-S3 (Arduino library).
+* [ESP32_OBD2_Emulator](https://github.com/MagnusThome/ESP32_OBD2_Emulator) - Simple OBD2 car emulator which runs on ESP32-S3 (replies to all OBD2 requests with dummy data).
 * [RejsaCAN-ESP32](https://github.com/MagnusThome/RejsaCAN-ESP32) - ESP32-S3 board with CAN interface.
+* [RejsaCAN-ESP32-C6](https://github.com/MagnusThome/RejsaCAN-ESP32/tree/main/Code%20Examples/RejsaCAN%20v6.x%20-%20ESP32-C6%20-%20DUAL%20CAN%20self%20test) - Example code that is tested and runs on the new ESP32-C6 that has TWO built in CAN controllers.
+* [CAN-wizard](https://github.com/okhsunrog/can_wizard) - CAN bus sniffer on esp32/esp32-c3 + SN65HVD230. Is developed using ESP-IDF and implement serial control console.
+
 
 ### SBC
 **SBC** - Single Board Computers.
